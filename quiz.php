@@ -124,13 +124,6 @@ ob_start();
 
   //CHECKING IF ALL ERRORS ARE EMPTY THEN UPDATE DB OR SHOW ERRORS ON THE PAGE
   if( empty($a1) && empty($a2) && empty($a3) ) {
-    // Create our insert SQL by hashing the password and using the escaped Username. 
-    $password = hashPassword($passwordtemp, SALT1, SALT2);
-
-    $sql = "INSERT INTO wms_member ( username, password, email ) VALUES ( :username, :password, :email )";
-
-    $query = $db->prepare( $sql );
-    $query->execute( array( ':username'=>$username, ':password'=>$password, ':email'=>$email ) );
 
     $message = '<h2 class="text-center">Account registered!
     </h2><br /><a href="login.php"><h2 class="text-center">Go to the 
