@@ -1,0 +1,44 @@
+/*Body & General*/
+body {
+  font-family:"Segoe UI"!important;
+  background-color: #F3F3F3;
+  padding-top: 8em;
+}
+
+.content {
+  background-color: white;
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 5%;
+}
+
+.big-head {
+  margin-bottom: 8%;
+  font-size: 300%
+}
+
+.subtitle {
+  margin-top: -5%;
+  margin-bottom: 8%;
+}
+
+a.panel-link {
+  color: inherit;
+}
+
+.box {
+
+  background-color: white;
+  padding: 5% 10% 10% 10%;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+
+  .error {
+    color: red;
+  }
+
+
