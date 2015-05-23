@@ -50,7 +50,7 @@ ob_start();
             </a>
           </li>
           <li>
-            <a href="#about" title="Quiz">
+            <a href="index.html#about" title="Quiz">
               <p>About</p>
             </a>
           </li>
