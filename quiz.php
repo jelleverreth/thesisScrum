@@ -14,24 +14,56 @@ ob_start();
   <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible">
   <title>WB CMS - Register a new user</title>
   <!-- BOOTSTRAP CSS -->
-  <link href="../css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
   <!-- General CSS -->
-  <link href="../css/general.css" rel="stylesheet">
+  <link href="css/general.css" rel="stylesheet">
   <!-- FONT AWESOME CDN -->
   <link href=
   "http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
   rel="stylesheet">
 
   <!-- JAVASCRIPT -->
-  <script src="../js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery-1.11.2.min.js"></script>
   <script src="http://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
-  <script src="../js/bootstrap.js"></script>
+  <script src="js/bootstrap.js"></script>
 
 
   <link href="img/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 <body>
+ <!-- START NAV BAR -->
 
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-target=".navbar-ex1-collapse"
+        data-toggle="collapse" type="button"><span class="sr-only">Toggle
+        navigation</span> <span class="icon-bar"></span> <span class=
+        "icon-bar"></span> <span class="icon-bar"></span></button>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a title="Home" href="index.html" >
+              <p>Home</p>
+            </a>
+          </li>
+          <li>
+            <a href="#about" title="Quiz">
+              <p>About</p>
+            </a>
+          </li>
+          <li>
+            <a href="quiz.php" title="Quiz">
+              <p>Quiz</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAV BAR -->
 <?php
   //Create error vars
   $nameErr = $passErr = $namelenErr = $message = $passlenErr = $userexistErr = " ";
@@ -109,7 +141,7 @@ ob_start();
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
         <div class="box">
-          <h2 class="text-center">Register an account</h2>
+          <h2 class="text-center">Scrum vragenlijst</h2>
           <br />
           <form name="registration" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
             <div class="input-group margin-bottom-sm">
