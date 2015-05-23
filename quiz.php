@@ -74,33 +74,16 @@ ob_start();
 
   //CHECK IF POST IS EMPTY OR NOT
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    //Checks for the username field
-    if (empty($_POST['username'])) {
-      $nameErr = "Username is required!";
+    //Checks for the v1 field
+    if (empty($_POST['v1'])) {
+      $vraag1 = "Required!";
     }
     else {
       $username = $_POST['username'];
       $nameErr = "";
       $uLen = strlen($username); 
-      if ($uLen < 4) { 
-        $_SESSION['error'] = "Username must be longer then or equal to 4 characters.";
-        $namelenErr = "Username must be longer then or equal to 4 characters!";  
-      }
-      else {
-        $namelenErr = "";
-        $sthandler = $db->prepare("SELECT username FROM wms_member WHERE username = :name");
-        $sthandler->bindParam(':name', $username);
-        $sthandler->execute();
-
-        if ($sthandler->rowCount() > 0) { 
-          $_SESSION['error'] = "Username already exists.";  
-          $userexistErr = "Username already exists!"; 
-        }
-        else
-        {
-          $userexistErr = "";
-        }
-      }
+      
+      
     }
     //Checks for the password field
     if (empty($_POST['password'])) {
@@ -118,8 +101,6 @@ ob_start();
         $passlenErr = "";
       }
     }
-    //Retrieve email (even if empty)
-    $email = $_POST['email'];
   }
 
   //CHECKING IF ALL ERRORS ARE EMPTY THEN UPDATE DB OR SHOW ERRORS ON THE PAGE
