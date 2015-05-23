@@ -75,13 +75,15 @@ ob_start();
   //CHECK IF POST IS EMPTY OR NOT
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //Checks for the v1 field
-    if (empty($_POST['v1'])) {
+    if (empty($_POST["v1"])) {
       $vraag1 = "Required!";
     }
     else {
       //CHECK IF ANSWER IS CORRECT
-      if ($_POST['v1'] = "a1b") {
-        //TODO UPDATE FORM
+      if ($_POST['v1'] === "a1b") {
+        $a1 = "Correct antwoord!";
+      } else {
+        $a1 = "Fout antwoord!";
       }
       
       
@@ -139,8 +141,10 @@ ob_start();
             <div class="input-group">
               <span class="input-group-addon"><input type="radio" name="v1" value="a1c"></span>
             <p>De anderstalige in een hindernis voor de ontwikkeling van het product. Deze persoon moet daarom van het project gehaald worden en vervangen worden door iemand die wel de moedertaal beheerst.</p>
-           
             </div>
+            <br />
+            <span class="error"><?php echo $a1;?></span>
+            <span class="error"><?php echo $vraag1;?></span>
 
       </div>
       <div class="col-md-8 col-md-offset-2 content">
@@ -194,7 +198,6 @@ ob_start();
       <div class="col-md-8 col-md-offset-2 content">
                         <button type="submit" class="btn btn-default">Vragen verbeteren</button>
          </form>
-         <span class="error"><?php echo $message;?></span>
       </div>
     </div>
   </div>
