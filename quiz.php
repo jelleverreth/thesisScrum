@@ -174,13 +174,37 @@ ob_start();
            
             </div>
             <div class="input-group">
-            <span class="input-group-addon"><input type="radio" name="v2" value="a2a"></span>
+            <span class="input-group-addon"><input type="radio" name="v2" value="a2b"></span>
              <p>Iedereen gaat terug werken en gaat later wanneer iedereen aanwezig is een Stand-up Scrum Meeting houden.</p>
            
             </div> 
             <div class="input-group">
-              <span class="input-group-addon"><input type="radio" name="v2" value="a2a"></span>
+              <span class="input-group-addon"><input type="radio" name="v2" value="a2c"></span>
             <p>Er wordt maximum 10 minuten gewacht, anders gaat de Stand-up Scrum Meeting door zonder de ontwikkelaar.</p>
+           
+            </div>
+
+      </div>
+      <div class="col-md-8 col-md-offset-2 content">
+          
+            <div class="input-group">
+              <p class="qqhead">Vraag 3</p>
+            </div> 
+            <br />
+            <div class="input-group">
+            <span class="input-group-addon"><input type="radio" name="v3" value="a3a"></span>
+            <p>Antwoord 1</p>
+
+           
+            </div>
+            <div class="input-group">
+            <span class="input-group-addon"><input type="radio" name="v3" value="a3b"></span>
+             <p>Antwoord 2</p>
+           
+            </div> 
+            <div class="input-group">
+              <span class="input-group-addon"><input type="radio" name="v3" value="a3c"></span>
+            <p>Antwoord 3</p>
            
             </div>
 
