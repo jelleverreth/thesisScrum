@@ -150,19 +150,43 @@ ob_start();
             </div> 
             <br />
             <div class="input-group">
-            <span class="input-group-addon"><input type="checkbox"></span>
+            <span class="input-group-addon"><input type="checkbox" name="v1" value="a1a"></span>
             <p>De anderstalige moet zo snel een taalcursus volgen, zodat deze persoon zo goed mogelijk met de rest van het ontwikkelteam kan communiceren.</p>
 
            
             </div>
             <div class="input-group">
-            <span class="input-group-addon"><input type="checkbox"></span>
+            <span class="input-group-addon"><input type="checkbox" name="v1" value="a1b"></span>
              <p>Tijdens de Sprint Retrospective Meeting wordt dit probleem besproken. Er worden verschillende voorstellen gedaan over hoe dit probleem aangepakt kan worden, zodat het ontwikkelingsteam zo productief mogelijk aan de volgende Sprint kan beginnen.</p>
            
             </div> 
             <div class="input-group">
-              <span class="input-group-addon"><input type="checkbox"></span>
+              <span class="input-group-addon"><input type="checkbox" name="v1" value="a1c"></span>
             <p>De anderstalige in een hindernis voor de ontwikkeling van het product. Deze persoon moet daarom van het project gehaald worden en vervangen worden door iemand die wel de moedertaal beheerst.</p>
+           
+            </div>
+
+      </div>
+      <div class="col-md-8 col-md-offset-2 content">
+          
+            <div class="input-group">
+              <p class="qqhead">Een ontwikkelaar gaat te laat komen voor de Stand-up Scrum Meeting. Wat moet men doen?</p>
+            </div> 
+            <br />
+            <div class="input-group">
+            <span class="input-group-addon"><input type="checkbox" name="v2" value="a2a"></span>
+            <p>De Stand-up Scrum Meeting moet op het vaste tijdstip doorgaan zonder te wachten op de mensen die te laat zijn.</p>
+
+           
+            </div>
+            <div class="input-group">
+            <span class="input-group-addon"><input type="checkbox" name="v2" value="a2a"></span>
+             <p>Iedereen gaat terug werken en gaat later wanneer iedereen aanwezig is een Stand-up Scrum Meeting houden.</p>
+           
+            </div> 
+            <div class="input-group">
+              <span class="input-group-addon"><input type="checkbox" name="v2" value="a2a"></span>
+            <p>Er wordt maximum 10 minuten gewacht, anders gaat de Stand-up Scrum Meeting door zonder de ontwikkelaar.</p>
            
             </div>
 
