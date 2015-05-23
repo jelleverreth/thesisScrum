@@ -192,7 +192,7 @@ ob_start();
 
       </div>
       <div class="col-md-8 col-md-offset-2 content">
-                        <button type="submit" class="btn btn-default">Register!</button>
+                        <button type="submit" class="btn btn-default">Vragen verbeteren</button>
          </form>
          <span class="error"><?php echo $message;?></span>
       </div>
