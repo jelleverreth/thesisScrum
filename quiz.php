@@ -139,8 +139,7 @@ ob_start();
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4 col-md-offset-4">
-        <div class="box">
+      <div class="col-md-8 col-md-offset-2 content">
           <h2 class="text-center">Scrum vragenlijst</h2>
           <br />
           <form name="registration" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
@@ -169,7 +168,6 @@ ob_start();
             <button type="submit" class="btn btn-default">Register!</button>
          </form>
          <span class="error"><?php echo $message;?></span>
-        </div>
       </div>
     </div>
   </div>
