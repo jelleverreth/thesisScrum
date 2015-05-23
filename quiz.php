@@ -65,10 +65,11 @@ ob_start();
   </nav>
   <!-- END NAV BAR -->
 <?php
-  //Create error vars
-  $nameErr = $passErr = $namelenErr = $message = $passlenErr = $userexistErr = " ";
+  //Create vraag error vars
+  $vraag1 = $vraag2 = $vraag3 = "";
+
   //Create data vars
-  $username = $passwordtemp = $email = "";
+  $a1 = $a2 = $a3 = "";
 
 
   //CHECK IF POST IS EMPTY OR NOT
