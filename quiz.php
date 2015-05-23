@@ -123,7 +123,7 @@ ob_start();
   }
 
   //CHECKING IF ALL ERRORS ARE EMPTY THEN UPDATE DB OR SHOW ERRORS ON THE PAGE
-  if( empty($nameErr) && empty($passErr) && empty($namelenErr) && empty($passlenErr) && empty($userexistErr)) {
+  if( empty($a1) && empty($a2) && empty($a3) ) {
     // Create our insert SQL by hashing the password and using the escaped Username. 
     $password = hashPassword($passwordtemp, SALT1, SALT2);
 
