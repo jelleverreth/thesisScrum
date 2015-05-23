@@ -166,8 +166,10 @@ ob_start();
             </div> 
             <br/>
             <div class="input-group">
-             <i class="fa fa-question"></i><p>In het ontwikkelingsteam zit een anderstalige. Hij kan niet goed de moedertaal van het bedrijf en is vaak stil tijdens de verschillende Scrum meetings. </p>
-            </div>
+              <span class="input-group-addon"><i class="fa fa-question"></i></span>
+              <p>In het ontwikkelingsteam zit een anderstalige. Hij kan niet goed de moedertaal van het bedrijf en is vaak stil tijdens de verschillende Scrum meetings. </p>
+            </div> 
+
             <div class="input-group">
             <span class="input-group-addon"><input type="checkbox"></span>
             <p>De anderstalige moet zo snel een taalcursus volgen, zodat deze persoon zo goed mogelijk met de rest van het ontwikkelteam kan communiceren.</p>
