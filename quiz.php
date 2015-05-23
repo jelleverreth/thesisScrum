@@ -79,9 +79,10 @@ ob_start();
       $vraag1 = "Required!";
     }
     else {
-      $username = $_POST['username'];
-      $nameErr = "";
-      $uLen = strlen($username); 
+      //CHECK IF ANSWER IS CORRECT
+      if ($_POST['v1'] = "a1b") {
+        //TODO UPDATE FORM
+      }
       
       
     }
