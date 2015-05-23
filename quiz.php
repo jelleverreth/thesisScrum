@@ -139,16 +139,18 @@ ob_start();
 
   <div class="container-fluid">
     <div class="row">
+      <form name="registration" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
       <div class="col-md-8 col-md-offset-2 content">
           <h2 class="text-center">Scrum vragenlijst</h2>
-          <br />
-          <form name="registration" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
-            
+      </div>
+      <div class="col-md-8 col-md-offset-2 content">
+          
+             <blockquote>
             <div class="input-group">
-              <span class="input-group-addon"><i class="fa fa-question"></i></span>
               <p>In het ontwikkelingsteam zit een anderstalige. Hij kan niet goed de moedertaal van het bedrijf en is vaak stil tijdens de verschillende Scrum meetings. </p>
             </div> 
-
+            </blockquote>
+            <br />
             <div class="input-group">
             <span class="input-group-addon"><input type="checkbox"></span>
             <p>De anderstalige moet zo snel een taalcursus volgen, zodat deze persoon zo goed mogelijk met de rest van het ontwikkelteam kan communiceren.</p>
@@ -165,7 +167,10 @@ ob_start();
             <p>De anderstalige in een hindernis voor de ontwikkeling van het product. Deze persoon moet daarom van het project gehaald worden en vervangen worden door iemand die wel de moedertaal beheerst.</p>
            
             </div>
-            <button type="submit" class="btn btn-default">Register!</button>
+
+      </div>
+      <div class="col-md-8 col-md-offset-2 content">
+                        <button type="submit" class="btn btn-default">Register!</button>
          </form>
          <span class="error"><?php echo $message;?></span>
       </div>
