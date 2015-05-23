@@ -165,6 +165,25 @@ ob_start();
               <input class="form-control" type="text" placeholder="Email address" name="email"/>
             </div> 
             <br/>
+            <div class="input-group">
+             <i class="fa fa-question"></i><p>In het ontwikkelingsteam zit een anderstalige. Hij kan niet goed de moedertaal van het bedrijf en is vaak stil tijdens de verschillende Scrum meetings. </p>
+            </div>
+            <div class="input-group">
+            <span class="input-group-addon"><input type="checkbox"></span>
+            <p>De anderstalige moet zo snel een taalcursus volgen, zodat deze persoon zo goed mogelijk met de rest van het ontwikkelteam kan communiceren.</p>
+
+           
+            </div>
+            <div class="input-group">
+            <span class="input-group-addon"><input type="checkbox"></span>
+             <p>Tijdens de Sprint Retrospective Meeting wordt dit probleem besproken. Er worden verschillende voorstellen gedaan over hoe dit probleem aangepakt kan worden, zodat het ontwikkelingsteam zo productief mogelijk aan de volgende Sprint kan beginnen.</p>
+           
+            </div> 
+            <div class="input-group">
+              <span class="input-group-addon"><input type="checkbox"></span>
+            <p>De anderstalige in een hindernis voor de ontwikkeling van het product. Deze persoon moet daarom van het project gehaald worden en vervangen worden door iemand die wel de moedertaal beheerst.</p>
+           
+            </div>
             <button type="submit" class="btn btn-default">Register!</button>
          </form>
          <span class="error"><?php echo $message;?></span>
