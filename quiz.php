@@ -143,28 +143,7 @@ ob_start();
           <h2 class="text-center">Scrum vragenlijst</h2>
           <br />
           <form name="registration" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
-            <div class="input-group margin-bottom-sm">
-              <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
-              <input class="form-control" type="text" placeholder="Username" name="username" value="<?php echo htmlspecialchars($username);?>"/>
-            </div>
-            <span class="error"><?php echo $nameErr;?></span>
-            <span class="error"><?php echo $namelenErr;?></span>
-            <span class="error"><?php echo $userexistErr;?></span>
-            <br />
-            <br />
-            <div class="input-group">
-              <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-              <input class="form-control" type="password" placeholder="Password" name="password"/>
-            </div>
-            <span class="error"><?php echo $passErr;?></span>
-            <span class="error"><?php echo $passlenErr;?></span>
-            <br />
-            <br />
-            <div class="input-group">
-              <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-              <input class="form-control" type="text" placeholder="Email address" name="email"/>
-            </div> 
-            <br/>
+            
             <div class="input-group">
               <span class="input-group-addon"><i class="fa fa-question"></i></span>
               <p>In het ontwikkelingsteam zit een anderstalige. Hij kan niet goed de moedertaal van het bedrijf en is vaak stil tijdens de verschillende Scrum meetings. </p>
