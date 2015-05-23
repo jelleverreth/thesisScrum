@@ -38,6 +38,8 @@ ob_start();
   //Create data vars
   $username = $passwordtemp = $email = "";
 
+
+  //CHECK IF POST IS EMPTY OR NOT
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //Checks for the username field
     if (empty($_POST['username'])) {
@@ -87,6 +89,7 @@ ob_start();
     $email = $_POST['email'];
   }
 
+  //CHECKING IF ALL ERRORS ARE EMPTY THEN UPDATE DB OR SHOW ERRORS ON THE PAGE
   if( empty($nameErr) && empty($passErr) && empty($namelenErr) && empty($passlenErr) && empty($userexistErr)) {
     // Create our insert SQL by hashing the password and using the escaped Username. 
     $password = hashPassword($passwordtemp, SALT1, SALT2);
