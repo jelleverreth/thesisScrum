@@ -7,16 +7,20 @@ body {
 
 .content {
   background-color: white;
-  padding-top: 3%;
+  padding-top: 1%;
   padding-left: 8%;
   padding-right: 8%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   margin-top: 100px;
 }
 
 .big-head {
   margin-bottom: 8%;
   font-size: 300%
+}
+
+.qqhead {
+  font-size: 150%;
 }
 
 .subtitle {

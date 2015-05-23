@@ -145,11 +145,9 @@ ob_start();
       </div>
       <div class="col-md-8 col-md-offset-2 content">
           
-             <blockquote>
             <div class="input-group">
-              <p>In het ontwikkelingsteam zit een anderstalige. Hij kan niet goed de moedertaal van het bedrijf en is vaak stil tijdens de verschillende Scrum meetings. </p>
+              <p class="qqhead">In het ontwikkelingsteam zit een anderstalige. Hij kan niet goed de moedertaal van het bedrijf en is vaak stil tijdens de verschillende Scrum meetings. </p>
             </div> 
-            </blockquote>
             <br />
             <div class="input-group">
             <span class="input-group-addon"><input type="checkbox"></span>
